@@ -28,7 +28,7 @@ if (isset($_GET['uid']) && isset($_GET['server_name'])) {
         }
 
         // Prepare the API request URL
-        $api_url = "https://likeapiff.thory.in/like?uid=" . $uid . "&server_name=" . $server_name . "&token_url=" . urlencode($token_url);
+        $api_url = "https://phpbdapi.vercel.app/like?uid=" . $uid . "&server_name=" . $server_name . "&token_url=" . urlencode($token_url);
 
         // Use cURL to call the API
         $ch = curl_init();
